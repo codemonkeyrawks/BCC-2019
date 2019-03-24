@@ -1,5 +1,10 @@
-Presentation - Various Authors (Idaho and Virgina)
+Presentation #1:
 Bootstrap.js - MIT Licence
 Chart.js - MIT Licence
 Math.js - Apache Licence
-Repo - CC-BY-SA
+
+Presentation #2:
+Idaho and Virgina (Workplace Readiness)
+
+Presentation #3:
+Adafruit - CC-BY-SA
