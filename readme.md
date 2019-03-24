@@ -19,11 +19,13 @@ Project:
   /BCC-P1         - Presentation - BCC 2019 P2
 
   * Personal Qualities and People Skills
+  /BCC-P2         - Presentation - BCC 2019 P1
 
   * Dancing with Arduino
   /LIGHTS         - NeoPixel Example Code
   /SDMUSIC        - VS1053 Example Code
   /TFTDISP        - HX8357 Example Code
+  /BCC-P3         - Presentation - BCC 2019 P1
 
 Testing:
   .gitlab-cl.yml  - Build/Test Script: GitLab: TBD
