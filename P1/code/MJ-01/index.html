@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Meta Information -->
+<meta charset="UTF-8">
+<meta name="description" content="Math Example #1">
+<meta name="keywords" content="HTML,CSS,JavaScript">
+<meta name="author" content="Arcademan">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Title Area -->
+<title>Math Example #1</title>
+
+<!-- Normalize: CSS -->
+<link rel="stylesheet" href="css/normalize.css" />
+
+<!-- BootStrap: CSS -->
+<link rel="stylesheet" href="css/bootstrap.css" />
+
+<!-- JQuery -> BootStrap: JavaScript -->
+<script src="scripts/jquery.js"></script>
+<script src="scripts/bootstrap.js"></script>
+
+<!-- Math.js -->
+<script src="scripts/math.js"></script>
+</head>
+
+<!-- Main Body -->
+<body class="container-fluid" style="margin: 50px; background: #F5F5F5">
+
+    <h2>Math - Example #1:</h2>
+    </br>
+
+    <!-- 12 Column Row: 12 -->
+    <div class="row">
+     	<div class="col-md-12 col-sm-12">
+            <script type="text/javascript">
+                document.write("<h3>");
+                document.write("E1: 3 + 2 / 4 = ");
+                document.write(math.simplify('3 + 2 / 4').toString());
+                document.write("<br>");
+                document.write("<br>");
+                document.write("</h3>");
+
+                document.write("<h3>");
+                document.write("E2: 2x + 3x = ");
+                document.write(math.simplify('2x + 3x').toString());
+                document.write("<br>");
+                document.write("<br>");
+                document.write("</h3>");
+
+                document.write("<h3>");
+                document.write("E3: X:4, 2 * 3 * x = ");
+                document.write(math.simplify('2 * 3 * x', {x: 4}).toString());
+                document.write("<br>");
+                document.write("<br>");
+                document.write("</h3>");
+
+                document.write("<h3>");
+                document.write("E4: x^2 + x + 3 + x^2 = ");
+                document.write(math.simplify('x^2 + x + 3 + x^2').toString());
+                document.write("<br>");
+                document.write("<br>");
+                document.write("</h3>");     
+          
+                document.write("<h3>");
+                document.write("E5: x * y * -x / (x ^ 2) = ");          
+                document.write(math.simplify('x * y * -x / (x ^ 2)').toString());
+                document.write("<br>");
+                document.write("<br>");
+                document.write("</h3>");
+            </script>
+        </div>
+    </div>
+
+</body>
+
+</html>
