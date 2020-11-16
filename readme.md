@@ -2,7 +2,7 @@ Structure:
 
 ```shell
 Project:
-  licence.txt     - CC-BY-SA Licence
+  licence.txt     - GPL Licence
   notice.txt      - Copyright Holders
   readme.md       - Getting Started Guide
 
@@ -26,9 +26,6 @@ Project:
   /SDMUSIC        - VS1053 Example Code
   /TFTDISP        - HX8357 Example Code
   /BCC-P3         - Presentation - BCC 2019 P1
-
-Testing:
-  .gitlab-cl.yml  - Build/Test Script: GitLab: TBD
 ```
 
 Building:
